@@ -1,0 +1,146 @@
+* {
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+html {
+    background: linear-gradient(to right, #000000, #181716, #181716,#181716,#000000);
+      
+}
+
+html,body{
+    padding:0px;
+    margin:0px;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #F9F6EE;
+    text-align: center;
+}
+
+p{
+    color: #F9F6EE;
+    text-align: left;
+}
+
+h1{
+    margin-bottom: 14px;
+    font-size: 38px;
+}
+
+h4{
+    margin-bottom: -7px;
+}
+
+h5{
+    margin-top: 2px;
+}
+
+hr{
+    border-radius: 3px;
+}
+
+
+.container{
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 700px;
+    padding: 16px;
+    padding-bottom: 20px;
+    background-color: #2a2727;
+}
+
+
+.game-container{
+    margin-top: 180px;
+    margin-bottom: 270px;
+}
+
+.game-container hr{
+    border: 2px solid #ff3300;
+    max-width: 600px;
+}
+
+.lekladan, .polarrush{
+    margin-bottom: -30px;
+    float:inherit;
+    padding: 20px;
+}
+
+.lekladan hr, .polarrush hr{
+    border: 1px solid #18191b; 
+    max-width: 560px;
+}
+
+/*
+.lekladan img:hover{
+    content: url("Images/");
+}
+
+.polarrush img:hover{
+    content: url("Images/");
+}
+*/
+
+.flex-container{
+    display:flex;
+}
+
+.flex-child{
+    flex: 1;
+    border: 2px solid #2a2727;
+}
+
+flex-child:first-child{
+    margin-right: 20px;
+}
+
+flex-child text{
+
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.bottomContainer{
+    font-size: 12px;
+}
+
+@media only screen and (max-width: 700px) {
+    .container{
+        
+        margin-top: 0px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .flex-container{
+        display: block;
+    }  
+    
+    html{
+        background: #0c0d0d;
+    }
+    
+    .game-container{
+    margin-top: 140px;
+    margin-bottom: 200px;
+    }
+}
+    
+.appbar {
+    background-color: #111111;
+    padding: 16px;
+}
+
+.appbar-container {
+    margin: 0 auto;
+    max-width: 600px;
+    padding-left: 16px;
+    color: #888;
+}    
+
