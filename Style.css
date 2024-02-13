@@ -62,13 +62,13 @@ hr{
     max-width: 600px;
 }
 
-.lekladan, .polarrush{
+.lekladan, .polarrush, .boating{
     margin-bottom: -30px;
     float:inherit;
     padding: 20px;
 }
 
-.lekladan hr, .polarrush hr{
+.lekladan hr, .polarrush hr, .boating hr{
     border: 1px solid #18191b; 
     max-width: 560px;
 }
